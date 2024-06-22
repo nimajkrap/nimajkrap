@@ -7,7 +7,8 @@
     align-items: center;
     height: 3rem;
     font-family: "NeoDunggeunmo";
-    border: 1px solid #EDEDF0;
+    border: 1px solid #9cda007f;
+    border-radius: 10px;
 }
 
 .date-today{
@@ -16,7 +17,7 @@
     text-align: center;
     padding: 0.5rem 0.8rem;
     margin-right: 0.8rem;
-    color: #3b87ab;
+    color: #ff9ac0;
 }
 
 .date-list{
@@ -49,7 +50,8 @@
 }
 
 .diary{
-    border: 1px solid #EDEDF0;
+    border: 1px solid #9cda007f;
+    border-radius: 10px;
     padding: 1.5rem;
     margin-bottom: 1.5rem;
 }
@@ -57,14 +59,15 @@
 .diary-date{
     flex: 0;
     font-family: "NeoDunggeunmo";
-    color: #3b87ab;
+    color: #ff9ac0;
     padding: 1rem;
 }
 
 .diary-contents{
     flex: 1;
-    font-size:20px;
-    font-family: "KyoboHand";
+    font-size:15px;
+    font-family: "DOSSaemmul";
+    line-height: 1.5;
     text-align: center;
 }
 
@@ -86,15 +89,15 @@
     margin-right: auto;
     margin-left: auto;
     font-size: 1rem;
-    font-family: "NeoDunggeunmo";
-    color: white;
-    background-color: white;
+    font-family: "DOSSaemmul";
+    color: rgba(255, 229, 115, 0.0);
+    background-color: rgba(255, 229, 115, 0.0);
     cursor: pointer;
 
 }
 
 .diary-button:hover{
-    background: #1aab8a;
+    background: #9cda00;
     color: #fff;
     transition: 2s ease all;
 }
