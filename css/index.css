@@ -20,9 +20,9 @@
 }
 
 .box-title {
-  font-family: "KOTRA_BOLD-Bold";
-  border-bottom: 1px solid grey;
-  color: #3b87ab;
+  font-family: "Ramche";
+  border-bottom: 1px solid #9cda00;
+  color: #9cda00;
 }
 
 .news-row {
@@ -39,16 +39,16 @@
 }
 
 .category-pic {
-  background-color: #f15f5f;
+  background-color: #ff9ac0;
 }
 
 .category-post {
-  background-color: #617dc1;
+  background-color: #9cda00;
 }
 
 .menu-row {
   display: flex;
-  border-bottom: 1px dashed grey;
+  border-bottom: 1px dashed #9cda00;
   margin: 3px 0;
 }
 
@@ -59,11 +59,22 @@
 .menu-num {
   font-family: "NeoDunggeunmo";
   padding-left: 6px;
-  color: #003399;
+  color: #ff9ac0;
 }
 
 .miniroom-gif-box {
-  border: 1px solid #808080;
-  flex: 1;
+  border: 1px solid #9cda00;
+  width: 500px; 
+  height: auto;
+  margin: 0 auto; 
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.miniroom-image {
+  width: 200%;
+  height: auto;
+  max-width: 100%;
+  border-radius: 9px;
 }

@@ -1,23 +1,24 @@
 body {
-    background-color: #a3a3a3;
-    background-image: url("../static/images/pattern.png");
-    background-size: 100px;
+  background-image: url("../images/pattern.png");
   
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    font-size: 16px;
-  
-    /** 기본 폰트 설정 */
-    font-family: "Noto Sans KR", sans-serif;
-  }
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 9px;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 16px;
+
+  font-family: "DOSSaemmul";
+}
   
   .bookcover {
-    background-color: #b4d1da;
-    border-radius: 9px;
-    border: 1px solid #738186;
+    background-color: rgba(255, 229, 115, 0.5);
+    border-radius: 30px;
+    border: 1px solid #b9e42b;
     width: 960px;
     height: 660px;
     margin: 100px auto;
@@ -25,8 +26,8 @@ body {
   }
   
   .bookdot {
-    border-radius: 9px;
-    border: 2px dashed #ffffff;
+    border-radius: 15px;
+    border: 2px dashed #b9e42b;
     padding: 15px;
     position: absolute;
     top: 15px;
@@ -36,8 +37,8 @@ body {
   }
   
   .page {
-    background-color: #eeeeee;
-    border-radius: 9px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 7px;
     position: absolute;
     top: 10px;
     left: 10px;
@@ -70,10 +71,10 @@ body {
   }
   
   .box {
-    background-color: white;
+    background-color: rgba(255, 229, 115, 0.2);
     flex: 3;
     border-radius: 10px;
-    border: 1px solid #cdcdcd;
+    border: 1px solid #b9e42b;
   }
   
   .content-title {
@@ -87,8 +88,8 @@ body {
   
   .content-title-url {
     flex: 1;
-    font-size: 0.5rem; /* 적용한 폰트 특성 상 사이즈가 커서 font-size 조정 */
-    text-align: end; /* 텍스트 우측 정렬 */
+    font-size: 0.5rem; 
+    text-align: end; 
   }
   
   .profile-title {
@@ -141,12 +142,12 @@ body {
     text-align: left;
     margin-bottom: 0.9rem;
     font-size: 1rem;
-    font-family: "NeoDunggeunmo";
+    font-family: "DOSSaemmul";
     padding: 0.4rem;
-    background-color: #3B87AB;
+    background-color: #b9e42b;
     color: white;
     border-radius: 0 5px 5px 0;
-    border: 1px solid grey;
+    border: 1px solid rgb(255, 255, 255, 0.1);
     cursor: pointer;
   }
 
@@ -155,13 +156,13 @@ body {
   }
 
   a button:hover {
-    background-color: #6B66FF;
+    background-color: #ff9ac0;
     color: white;
   }
 
   .profile-dropdown{
     flex: 0;
-    border: 1px solid #c9d4da;
+    border: 1px solid #b9e42b;
     padding: 5px;
     margin-top: 10px;
     font-size: 0.8rem;
@@ -173,7 +174,7 @@ body {
     height: 0;
     border-left: 4.5px solid transparent;
     border-right: 4.5px solid transparent;
-    border-top: 5px solid #838383;
+    border-top: 5px solid #b9e42b;
   }
 
   .dropdown-button{
