@@ -10,7 +10,7 @@
   padding: 0.5rem;
   margin-top: 10px;
   margin-bottom: 20px;
-  background-color: #c7c9ca;
+  background-color: #b9e42b;
   border-radius: 9px;
   width: 100%;
 }
@@ -21,7 +21,7 @@
 }
 
 .photo-image-img{
-  width: 120%;
+  width: 90%;
   display: block;
   margin-left: auto;
   margin-right: auto;
